@@ -9,43 +9,45 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-       <div class="topBar">
-        <div class = "topImage">
-            <img src = "./images/stockX_logo.png" style="height: 100px; ">
+        <div class="fixed">
+            <div class="topBar">
+                    <div class = "topImage">
+                        <img src = "./images/stockX_logo.png" style="height: 80px; ">
+                    </div>
+                    <div class="searchBar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                        <input type = 'text' placeholder="Search for brand, color, etc">
+                    </div>
+                    <div class="right">
+                        <p>News</p>
+                        <p>About</p>
+                        <p>Help</p>
+                        <p>Sell</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="99" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                        </svg>
+                        <button class="login">Login</button>
+                        <button class = "signUp">Sign Up</button>
+                    </div>
+            </div>
+        
+        <div class="navBar">
+            <div class="navContent">
+                <p>New & Featured</p>
+                <p>Deals</p>
+                <p>Men</p>
+                <p>Women</p>
+                <p>Kids</p>
+                <p>Sneakers</p>
+                <p>Shoes</p>
+                <p>Apparel</p>
+                <p>Accessories</p>
+                <p>More Categories</p>
+            </div>
         </div>
-        <div class="searchBar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-              </svg>
-            <input type = 'text' placeholder="Search for brand, color, etc">
-        </div>
-        <div class="right">
-            <p>News</p>
-            <p>About</p>
-            <p>Help</p>
-            <p>Sell</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="99" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
-                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
-            </svg>
-            <button class="login">Login</button>
-            <button class = "signUp">Sign Up</button>
-        </div>
-       </div>
-       <div class="navBar">
-        <div class="navContent">
-            <p>New & Featured</p>
-            <p>Deals</p>
-            <p>Men</p>
-            <p>Women</p>
-            <p>Kids</p>
-            <p>Sneakers</p>
-            <p>Shoes</p>
-            <p>Apparel</p>
-            <p>Accessories</p>
-            <p>More Categories</p>
-        </div>
-       </div>
-
+    </div>
        <div class="mainPageContent">
             <div class="mainAdvertisement">
                 <div class="buttonContainer">
@@ -58,6 +60,38 @@
                 </div>
             </div>
        </div>
+       <div class="popularBrands">
+            <div class="heading">
+                <h3>Popular Brands</h3>
+            </div>
+            <div class ="popularBrandsContent">
+                <div class="brand">
+                    <div class="brandImage">
+                        <img src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt409de50cb3a5a1b3/6549194da6e009040a741042/jordan.jpg?auto=webp&format=pjpg&quality=75&dpr=2&width=234&height=160">
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brandImage">
+                        <img src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/bltfbd714659f043ebc/6549196628f295040a76d43c/supreme.jpg?auto=webp&format=pjpg&quality=75&dpr=2&width=234&height=160">
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brandImage">
+                        <img src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt2594713e29d50303/6549197f52ab7e040a3d2732/lv.jpg?auto=webp&format=pjpg&quality=75&dpr=2&width=234&height=160">
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brandImage">
+                        <img src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt93ea8338f7bb81ec/6549188bb3460c040a0afdb8/ugg.jpg?auto=webp&format=pjpg&quality=75&dpr=2&width=234&height=160">
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brandImage">
+                        <img src="https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt8fadb924b2721388/65491a611607a5040aa27252/thenorthface.jpg?auto=webp&format=pjpg&quality=75&dpr=2&width=234&height=160">
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <script src="./app.js" async defer></script>
     </body>
