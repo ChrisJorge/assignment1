@@ -165,7 +165,7 @@ h3{
     margin-top: 20px;
     margin-left: 2%;
     margin-right: 2%;
-    height: 100vh;
+    
 }
 
 .sectionHead{
@@ -200,6 +200,13 @@ h3{
 }
 .itemImage{
   display: flex;
+}
+
+.itemDescription{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
 }
 
 .shipping{
