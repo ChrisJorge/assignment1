@@ -1,0 +1,66 @@
+.topBar{
+    height: 150px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topImage{
+    display: flex; 
+    align-self: center;
+    padding-right: 20px;
+}
+
+.searchBar{
+    display: flex;
+    align-self: center;
+    border: solid gray;
+    align-self: center;
+    width: 60%;
+}
+
+.searchBar svg{
+    padding-left: 10px;
+    align-self: center;
+}
+input{
+    padding-left: 20px;
+    width: 1000px;
+    height: 50px;
+    border: none;
+}
+
+.right{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.right p{
+align-self: center;
+font-size: 20px;
+padding: 5px;
+}
+
+.right svg{
+    align-self: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.login{
+    align-self: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+.signUp{
+    background-color: black;
+    color: aliceblue;
+    align-self: center;
+    padding: 10px;
+    font-size: 15px;
+}
