@@ -87,3 +87,42 @@ padding: 5px;
     font-size: 20px;
     font-weight: bold;
 }
+
+.mainPageContent{
+    display: flex;
+    justify-content: center;
+}
+
+.mainAdvertisement{
+    height:290px;
+    width: 60%;
+    background-image: url("https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt4902b2395a59026f/65ddeac84487d0f5103fe9f8/ReferralProgram_Primary_Desktop_copy_(1).jpg?auto=webp&format=pjpg&width=1246&dpr=2&quality=75");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mainPageContent button{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    color: aliceblue;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.leftButton{
+    border: none;
+    align-self: center;
+    margin-left: 15px;
+}
+
+.rightButton{
+    border: none;
+    align-self: center;
+    margin-right: 15px;
+}
