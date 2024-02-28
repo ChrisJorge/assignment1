@@ -159,3 +159,66 @@ h3{
     height: 160px;
     
 }
+
+
+.section{
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100vh;
+}
+
+.sectionHead{
+    display: flex;
+    justify-content: space-between;
+}
+.section button{
+    background-color: white;
+    border: none;
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sectionTitle{
+    display: flex;
+}
+
+.sectionTitle svg{
+    align-self: center;
+    padding-left: 10px;
+}
+
+.sectionBody{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 160px;
+}
+.itemImage{
+  display: flex;
+}
+
+.shipping{
+    display: flex;
+    background-color: rgb(184, 181, 181);
+    padding: 0%;
+    margin: 0%;
+}
+
+.shippingContainer{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+.shipping svg{
+    align-self: center;
+    padding-right: 5px;
+}
+
+.shipping p{
+    font-size: 13px;
+}
