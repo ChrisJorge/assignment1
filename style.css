@@ -236,6 +236,11 @@ h3{
     padding: 0%;
 }
 
+.itemDescription h4,p,h3{
+    padding: 0%;
+    margin: 5px;
+}
+
 .shipping{
     display: flex;
     background-color: rgb(184, 181, 181);
