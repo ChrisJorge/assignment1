@@ -139,6 +139,33 @@ padding: 5px;
     margin-right: 15px;
 }
 
+.secondAd{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.secondAd .images{
+    display: flex;
+    margin-top: 20px;
+}
+
+.images .leftImg{
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 10px;
+    width: 788.05px;
+    height: 400px;
+}
+
+.images .rightImg{
+    margin: 0%;
+    padding: 0%;
+    width: 418.66px;
+    height: 400px;
+
+
+}
+
 .popularBrands{
     margin-top: 0%;
     margin-left: 15px;
