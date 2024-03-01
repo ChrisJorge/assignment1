@@ -33,6 +33,7 @@ body{
     padding-left: 10px;
     align-self: center;
 }
+
 input{
     padding-left: 20px;
     width: 1000px;
@@ -181,7 +182,7 @@ h3{
     display: flex;
 }
 
-.brandImage img{
+.brandImage img, .calendarImage img{
    padding-right: 16px;
     height: 160px;
     
@@ -199,7 +200,7 @@ h3{
     display: flex;
     justify-content: space-between;
 }
-.section button{
+.section button, .releaseCalendar button{
     background-color: white;
     border: none;
     color: green;
@@ -260,4 +261,34 @@ h3{
 
 .shipping p{
     font-size: 13px;
+}
+
+.releaseCalendar{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+
+.calendarContent{
+    display: flex;
+    flex-direction: row;
+}
+.calendarItem{
+    border: solid gray;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 25px;
+}
+.calendarHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.calendarBody img{
+    height: 100px;
+  
 }
