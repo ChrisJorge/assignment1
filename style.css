@@ -292,3 +292,7 @@ h3{
     height: 100px;
   
 }
+
+.itemContainer{
+    display: flex;
+}
