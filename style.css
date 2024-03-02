@@ -296,3 +296,29 @@ h3{
 .itemContainer{
     display: flex;
 }
+
+.values{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.box{
+    width: 30%;
+    margin: 3%;
+    background-color: rgb(37, 35, 35);
+    
+}
+
+.boxContent{
+    padding: 25px;
+}
+
+.boxHead{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.boxBody, .boxBody a{
+    color: aliceblue;
+}
