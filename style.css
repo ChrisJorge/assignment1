@@ -322,3 +322,24 @@ h3{
 .boxBody, .boxBody a{
     color: aliceblue;
 }
+
+
+footer{
+    color: aliceblue;
+    background-color:  rgb(37, 35, 35);
+    padding: 2%;
+}
+
+.footerTop{
+    display: flex;
+}
+.footerTop p{
+    font-weight: bold;
+}
+
+footer li{
+    padding: 0%;
+    
+    margin-top: 5px;
+    font-size: 13px;
+}
