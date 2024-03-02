@@ -344,7 +344,7 @@ footer li{
     font-size: 13px;
 }
 
-.footerBottom, .footerLeft{
+.footerBottom, .footerLeft, .barTop{
     display: flex;
 }
 
@@ -360,4 +360,34 @@ footer li{
 .footerRight img{
     margin-top: 15px;
     height: 45px;
+}
+
+.barTop{
+    margin-left: 2%;
+    justify-content: space-between;
+
+}
+.barLeft{
+    margin-top: 2%;
+    border: solid white;
+    color: aliceblue;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.footerBar{
+    background-color: black;
+}
+
+.barMiddle{
+    margin-top: 2%;
+}
+.barMiddle img{
+    height: 35px;
+}
+
+.barRight{
+    margin-top: 2%;
+    margin-right: 2%;
+    color: aliceblue;
 }
