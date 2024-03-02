@@ -391,3 +391,11 @@ footer li{
     margin-right: 2%;
     color: aliceblue;
 }
+
+.barBottom{
+    height: 15vh;
+    margin-top: 2%;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
