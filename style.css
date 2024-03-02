@@ -333,7 +333,7 @@ footer{
 .footerTop{
     display: flex;
 }
-.footerTop p{
+.footerTop p, .footerLeft p{
     font-weight: bold;
 }
 
@@ -342,4 +342,22 @@ footer li{
     
     margin-top: 5px;
     font-size: 13px;
+}
+
+.footerBottom, .footerLeft{
+    display: flex;
+}
+
+.footerBottom{
+    justify-content: space-between;
+}
+.footerRight{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRight img{
+    margin-top: 15px;
+    height: 45px;
 }
