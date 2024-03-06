@@ -164,6 +164,81 @@ h3{
     height: 160px;
 }
 
+.section{
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+.sectionHead{
+    display: flex;
+    justify-content: space-between;
+}
+.section button, .releaseCalendar button{
+    background-color: white;
+    border: none;
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sectionTitle{
+    display: flex;
+}
+
+.sectionTitle svg{
+    align-self: center;
+    padding-left: 10px;
+}
+
+.sectionBody{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 160px;
+}
+.itemImage{
+  display: flex;
+}
+
+.itemDescription{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+
+.itemDescription h4,p,h3{
+    padding: 0%;
+    margin: 5px;
+}
+
+.shipping{
+    display: flex;
+    background-color: rgb(184, 181, 181);
+    padding: 0%;
+    margin: 0%;
+}
+
+.shippingContainer{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+.shipping svg{
+    align-self: center;
+    padding-right: 5px;
+}
+
+.shipping p{
+    font-size: 13px;
+}
+
+
 /*Monitors */
 @media(min-width: 1351px){
 
@@ -593,10 +668,95 @@ h3{
         display: none;
     }
 
+    /* Main Section Content CSS */
+
+    .section{
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+    
+    .sectionHead{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section button, .releaseCalendar button{
+        background-color: white;
+        border: none;
+        color: green;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .sectionTitle{
+        display: flex;
+    }
+    
+    .sectionTitle svg{
+        align-self: center;
+        padding-left: 10px;
+    }
+    
+    .sectionBody{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+    
+    .item{
+        width: 140px;
+    }
+    .itemImage{
+      display: flex;
+    }
+    
+    .itemDescription{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .itemDescription h4,p,h3{
+        padding: 0%;
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    
+    
+    .shipping{
+        display: flex;
+        background-color: rgb(184, 181, 181);
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .shippingContainer{
+        display: flex;
+        padding: 0%;
+        margin: 0%;
+    }
+    .shipping svg{
+        align-self: center;
+        padding-right: 5px;
+    }
+    
+    .shipping p{
+        font-size: 12px;
+    }
+    
 }
 
 @media (max-width: 299px)
 {
+
+    body{
+        margin: 0%;
+    }
 
     /* TopBar CSS */
     .topBarXS
@@ -707,6 +867,88 @@ h3{
         height: 70px;
         
     }
+
+
+    /* Main Page Sections */
+    .section{
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    }
+    
+    .sectionHead{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section button, .releaseCalendar button{
+        background-color: white;
+        border: none;
+        color: green;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .sectionTitle{
+        display: flex;
+    }
+    
+    .sectionTitle svg{
+        align-self: center;
+        padding-left: 10px;
+    }
+    
+    .sectionBody{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+    
+    .item{
+        width: 140px;
+    }
+    .itemImage{
+      display: flex;
+    }
+    
+    .itemDescription{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .itemDescription h4,p,h3{
+        padding: 0%;
+        margin: 5px;
+        font-size: 11px;
+    }
+
+    
+    
+    .shipping{
+        display: flex;
+        background-color: rgb(184, 181, 181);
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .shippingContainer{
+        display: flex;
+        padding: 0%;
+        margin: 0%;
+    }
+    .shipping svg{
+        align-self: center;
+        padding-right: 5px;
+    }
+    
+    .shipping p{
+        font-size: 10px;
+    }
+    
 
 }
 
