@@ -80,14 +80,53 @@ padding: 5px;
 }
 
 /* Ipads */
-@media (min-width: 451px) and (max-width: 800px)
+@media (min-width: 745px) and (max-width: 1024px)
 {
+    /* Top Bar CSS */
+    .topBarM
+    {
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+    }
 
+    .leftOptions{
+        display: none;
+    }
+
+    .topImage{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .topImage img{
+        height: 70px;
+    }
+
+    .searchBar{
+        width: 30%;
+    }
+
+
+    .inputL{
+        display: none;
+    }
+
+    
+    .searchBar svg{
+        height: 50%;
+        width: 30%;
+    }
+    
 }
+
 
 /* Phones */
 @media (min-width: 300px) and (max-width: 450px)
 {
+
+    /* Top Bar CSS */
     .topBarS
     {
         display: flex;
@@ -118,7 +157,7 @@ padding: 5px;
         border: none;
         margin-right: 2%;
     }
-    
+
     input{
         display: none;
     }
@@ -126,7 +165,6 @@ padding: 5px;
     .options{
         display: none;
     }
-
 
 }
 
