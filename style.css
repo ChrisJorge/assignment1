@@ -120,7 +120,7 @@ padding: 5px;
 }
 
 /* Laptops */
-@media(min-width: 1025px) and (max-width: 1350px)
+@media(min-width: 1100px) and (max-width: 1350px)
 {
     /* Top Bar CSS */
     .topBarL
@@ -140,7 +140,7 @@ padding: 5px;
 }
 
 /* Ipads */
-@media(min-width: 745px) and (max-width: 1024px)
+@media(min-width: 745px) and (max-width: 1099px)
 {
     /* Top Bar CSS */
     .topBarM
@@ -179,6 +179,22 @@ padding: 5px;
         width: 30%;
     }
     
+    .navBar{
+        justify-content: flex-start;
+    }
+
+    .navContent{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    
+.navContent p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
 }
 /* Small Screen devices inbetween Phones and Ipads */
 @media(min-width: 451px) and (max-width:744px)
