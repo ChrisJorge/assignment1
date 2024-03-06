@@ -79,8 +79,24 @@ padding: 5px;
     margin-left: 10px;
 }
 
+/* Laptops */
+@media(min-width: 1025px) and (max-width: 1350px)
+{
+    /* Top Bar CSS */
+    .topBarL
+    {
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+    }
+
+    .leftOptions{
+        display: none;
+    }
+}
+
 /* Ipads */
-@media (min-width: 745px) and (max-width: 1024px)
+@media(min-width: 745px) and (max-width: 1024px)
 {
     /* Top Bar CSS */
     .topBarM
