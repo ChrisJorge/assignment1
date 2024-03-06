@@ -1,6 +1,8 @@
+/* General CSS */
 body{
-    margin: 0%;
-    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0%;
 }
 
 .fixed{
@@ -9,16 +11,15 @@ body{
     left: 0%;
     right: 0%;
 }
+
 .topBar{
-    background-color: white;
     height: 100px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .topImage{
-    display: flex; 
-    align-self: center;
+    display: flex;
 }
 
 .searchBar{
@@ -41,19 +42,19 @@ input{
     border: none;
 }
 
-.right{
+.options{
     display: flex;
     width: 40;
     justify-content: space-evenly;
 }
 
-.right p{
+.options p{
 align-self: center;
 font-size: 20px;
 padding: 5px;
 }
 
-.right svg{
+.options svg{
     align-self: center;
     padding-left: 5px;
     padding-right: 5px;
@@ -78,325 +79,59 @@ padding: 5px;
     margin-left: 10px;
 }
 
-.navBar{
-    margin-top: 0%;
-    border-top: solid rgba(107, 106, 106, 0.351);
-    background-color: #eeebeb;
-    display: flex;
-    justify-content: center;
-}
-
-.navContent{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.navContent p{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.mainPageContent{
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0%;
-}
-
-.mainAdvertisement{
-    margin-left: 2%;
-    margin-right: 2%;
-    height:390px;
-    width: 100%;
-    background-image: url("https://images-cs.stockx.com/v3/assets/blt818b0c67cf450811/blt4902b2395a59026f/65ddeac84487d0f5103fe9f8/ReferralProgram_Primary_Desktop_copy_(1).jpg?auto=webp&format=pjpg&width=1246&dpr=2&quality=75");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.mainPageContent button{
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border-radius: 50%;
-    color: aliceblue;
-}
-
-.buttonContainer{
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.leftButton{
-    border: none;
-    align-self: center;
-    margin-left: 15px;
-}
-
-.rightButton{
-    border: none;
-    align-self: center;
-    margin-right: 15px;
-}
-
-.secondAd{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.secondAd .images{
-    display: flex;
-    margin-top: 20px;
-}
-
-.images .leftImg{
-    margin: 0%;
-    padding-left: 0%;
-    padding-right: 10px;
-    width: 788.05px;
-    height: 400px;
-}
-
-.images .rightImg{
-    margin: 0%;
-    padding: 0%;
-    width: 418.66px;
-    height: 400px;
-
+/* Ipads */
+@media (min-width: 451px) and (max-width: 800px)
+{
 
 }
 
-.popularBrands{
-    margin-top: 0%;
-    margin-left: 15px;
-    margin-right: 15px;
+/* Phones */
+@media (min-width: 300px) and (max-width: 450px)
+{
 
 }
 
-h3{
-    font-size: 20px;
-}
+@media (max-width: 299px)
+{
 
-.popularBrandsContent{
-    display: flex;
-}
+    /* TopBar CSS */
+    .topBarXS
+    {
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+    }
 
-.brandImage img, .calendarImage img{
-   padding-right: 16px;
-    height: 160px;
+    .topImage{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .topImage img{
+        height: 50px;
+    }
+
+   
+    .searchBar{
+        display: flex;
+        width: 40px;
+        border: none;
+    }
     
-}
+    input{
+        display: none;
+    }
+
+    .options{
+        display: none;
+    }
+
+    .leftOptions{
+        display: flex;
+        align-self: center;
+    }
 
 
-.section{
-    margin-top: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
     
-}
-
-.sectionHead{
-    display: flex;
-    justify-content: space-between;
-}
-.section button, .releaseCalendar button{
-    background-color: white;
-    border: none;
-    color: green;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.sectionTitle{
-    display: flex;
-}
-
-.sectionTitle svg{
-    align-self: center;
-    padding-left: 10px;
-}
-
-.sectionBody{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.item{
-    width: 160px;
-}
-.itemImage{
-  display: flex;
-}
-
-.itemDescription{
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    padding: 0%;
-}
-
-.itemDescription h4,p,h3{
-    padding: 0%;
-    margin: 5px;
-}
-
-.shipping{
-    display: flex;
-    background-color: rgb(184, 181, 181);
-    padding: 0%;
-    margin: 0%;
-}
-
-.shippingContainer{
-    display: flex;
-    padding: 0%;
-    margin: 0%;
-}
-.shipping svg{
-    align-self: center;
-    padding-right: 5px;
-}
-
-.shipping p{
-    font-size: 13px;
-}
-
-.releaseCalendar{
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 20px;
-}
-
-.calendarContent{
-    display: flex;
-    flex-direction: row;
-}
-.calendarItem{
-    border: solid gray;
-    width: 160px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin-left: 25px;
-}
-.calendarHeading{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.calendarBody img{
-    height: 100px;
-  
-}
-
-.itemContainer{
-    display: flex;
-}
-
-.values{
-    display: flex;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.box{
-    width: 30%;
-    margin: 1.5%;
-    background-color: rgb(37, 35, 35);
-    
-}
-
-.boxContent{
-    padding: 25px;
-}
-
-.boxHead{
-    display: flex;
-    align-items: center;
-    color: aliceblue;
-}
-
-.boxBody, .boxBody a{
-    color: aliceblue;
-}
-
-
-footer{
-    color: aliceblue;
-    background-color:  rgb(37, 35, 35);
-    padding: 2%;
-}
-
-.footerTop{
-    display: flex;
-}
-.footerTop p, .footerLeft p{
-    font-weight: bold;
-}
-
-footer li{
-    padding: 0%;
-    
-    margin-top: 5px;
-    font-size: 13px;
-}
-
-.footerBottom, .footerLeft, .barTop{
-    display: flex;
-}
-
-.footerBottom{
-    justify-content: space-between;
-}
-.footerRight{
-    
-    display: flex;
-    flex-direction: column;
-}
-
-.footerRight img{
-    margin-top: 15px;
-    height: 45px;
-}
-
-.barTop{
-    margin-left: 2%;
-    justify-content: space-between;
-
-}
-.barLeft{
-    margin-top: 2%;
-    border: solid white;
-    color: aliceblue;
-    padding: 5px;
-    font-weight: bold;
-}
-
-.footerBar{
-    background-color: black;
-}
-
-.barMiddle{
-    margin-top: 2%;
-}
-.barMiddle img{
-    height: 35px;
-}
-
-.barRight{
-    margin-top: 2%;
-    margin-right: 2%;
-    color: aliceblue;
-}
-
-.barBottom{
-    height: 15vh;
-    margin-top: 2%;
-    display: flex;
-    color: aliceblue;
-    justify-content: center;
 }
