@@ -4,7 +4,7 @@ body{
     margin-right: 2%;
     padding: 0%;
 }
-
+/* TopBar CSS */
 .fixed{
     position: fixed;
     top: 0%;
@@ -78,6 +78,30 @@ padding: 5px;
     font-size: 15px;
     margin-left: 10px;
 }
+
+
+
+/* NavBar CSS */
+
+.navBar{
+    margin-top: 0%;
+    border-top: solid rgba(107, 106, 106, 0.351);
+    background-color: #eeebeb;
+    display: flex;
+    justify-content: center;
+}
+
+.navContent{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.navContent p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /*Monitors */
 @media(min-width: 1351px){
     .topBarXL{
