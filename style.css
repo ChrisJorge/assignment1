@@ -78,6 +78,22 @@ padding: 5px;
     font-size: 15px;
     margin-left: 10px;
 }
+/*Monitors */
+@media(min-width: 1351px){
+    .topBarXL{
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+    }
+
+    .leftOptions{
+        display: none;
+    }
+
+    .inputS{
+        display: none;
+    }
+}
 
 /* Laptops */
 @media(min-width: 1025px) and (max-width: 1350px)
@@ -91,6 +107,10 @@ padding: 5px;
     }
 
     .leftOptions{
+        display: none;
+    }
+
+    .inputS{
         display: none;
     }
 }
