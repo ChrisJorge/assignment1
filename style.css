@@ -256,6 +256,11 @@ padding: 5px;
         display: none;
     }
 
+    /* Nav Bar CSS */
+    .navBar{
+        display: none;
+    }
+
 }
 
 @media (max-width: 299px)
@@ -301,7 +306,7 @@ padding: 5px;
         display: none;
     }
 
-
+    /* Nav Bar CSS */
     .navBar{
         display: none;
     }
