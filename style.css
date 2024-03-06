@@ -120,7 +120,37 @@ padding: 5px;
     }
     
 }
+/* Small Screen devices inbetween Phones and Ipads */
+@media(min-width: 451px) and (max-width:744px)
+{
 
+    .leftOptions{
+        display: flex;
+        align-self: center;
+    }
+    .topBarS
+    {
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+    }
+
+    .searchBar{
+        width: 50%;
+    }
+
+    .inputL{
+        display: none;
+    }
+
+    .inputS{
+        width: 100%;
+    }
+
+    .options{
+        display: none;
+    }
+}
 
 /* Phones */
 @media (min-width: 300px) and (max-width: 450px)
