@@ -141,6 +141,29 @@ padding: 5px;
     margin-right: 15px;
 }
 
+
+/* Popular Brands */
+
+.popularBrands{
+    margin-top: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+h3{
+    font-size: 20px;
+}
+
+.popularBrandsContent{
+    display: flex;
+}
+
+.brandImage img, .calendarImage img{
+   padding-right: 16px;
+    height: 160px;
+}
+
 /*Monitors */
 @media(min-width: 1351px){
 
@@ -508,6 +531,15 @@ padding: 5px;
         color: aliceblue;
     }
 
+    /* Popular brands css */
+
+    .popularBrandsContent{
+        justify-content: center;
+    }
+    .img4, .img5{
+        display: none;
+    }
+
 }
 
 @media (max-width: 299px)
@@ -594,4 +626,33 @@ padding: 5px;
         border-radius: 50%;
         color: aliceblue;
     }
+
+    /* Popular Brands */
+    
+     .img4{
+        display: none;
+    }
+
+}
+
+.popularBrands{
+    margin-top: 0%;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+h3{
+    font-size: 20px;
+}
+
+.popularBrandsContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brandImage img, .calendarImage img{
+   padding-right: 6px;
+    height: 70px;
+    
 }
