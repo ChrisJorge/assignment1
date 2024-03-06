@@ -301,6 +301,10 @@ padding: 5px;
         display: none;
     }
 
+
+    .navBar{
+        display: none;
+    }
     
     
 }
