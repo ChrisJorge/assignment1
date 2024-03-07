@@ -238,6 +238,28 @@ h3{
     font-size: 13px;
 }
 
+/* Second Add */
+.secondAd .images{
+    display: flex;
+    margin-top: 20px;
+}
+
+.images .leftImg{
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 10px;
+    width: 788.05px;
+    height: 400px;
+}
+
+.images .rightImg{
+    margin: 0%;
+    padding: 0%;
+    width: 418.66px;
+    height: 400px;
+
+
+}
 /* Release Calendar CSS */
 .releaseCalendar{
     margin-top: 20px;
@@ -797,6 +819,30 @@ footer li{
         display: none;
     }
 
+    /* Second Ad */
+    .secondAd .images{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .images .leftImg{
+        display: none;
+        margin: 0%;
+        padding-left: 0%;
+        padding-right: 10px;
+        width: 788.05px;
+        height: 400px;
+    }
+    
+    .images .rightImg{
+        margin: 0%;
+        padding: 0%;
+        width: 480px;
+        height: 400px;
+    
+    
+    }
+
 }
 
 /* Phones */
@@ -1130,6 +1176,29 @@ footer li{
 
     .barBottom p{
         font-size: 5px;
+    }
+
+    .secondAd .images{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .images .leftImg{
+        display: none;
+        margin: 0%;
+        padding-left: 0%;
+        padding-right: 10px;
+        width: 788.05px;
+        height: 400px;
+    }
+    
+    .images .rightImg{
+        margin: 0%;
+        padding: 0%;
+        width: 280px;
+        height: 400px;
+    
+    
     }
     
 }
@@ -1476,6 +1545,30 @@ footer li{
 
     .barBottom p{
         font-size: 5px;
+    }
+
+    /* Second Add */
+    .secondAd .images{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .images .leftImg{
+        display: none;
+        margin: 0%;
+        padding-left: 0%;
+        padding-right: 10px;
+        width: 788.05px;
+        height: 400px;
+    }
+    
+    .images .rightImg{
+        margin: 0%;
+        padding: 0%;
+        width: 280px;
+        height: 400px;
+    
+    
     }
 
 }
