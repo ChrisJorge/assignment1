@@ -238,6 +238,39 @@ h3{
     font-size: 13px;
 }
 
+/* Release Calendar CSS */
+.releaseCalendar{
+    margin-top: 20px;
+}
+
+.calendarContent{
+    display: flex;
+    flex-direction: row;
+}
+.calendarItem{
+    border: solid gray;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 25px;
+}
+.calendarHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.calendarBody img{
+    height: 100px;
+  
+}
+
+.itemContainer{
+    display: flex;
+}
+
 
 /*Monitors */
 @media(min-width: 1351px){
@@ -481,7 +514,14 @@ h3{
      
  }
 
- /* CSS For Main Section */
+ .itemContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item5{
+    display: none;
+}
  
  
 }
@@ -646,6 +686,15 @@ h3{
         font-size: 14px;
     }
     
+    /* Calendar CSS */
+    .itemContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item5{
+        display: none;
+    }
 
 }
 
@@ -829,6 +878,46 @@ h3{
     
     .shipping p{
         font-size: 12px;
+    }
+
+    /* Release Calendar CSS */
+    .releaseCalendar{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 20px;
+    }
+    
+    .calendarContent{
+        display: flex;
+        flex-direction: row;
+    }
+    .calendarItem{
+        border: solid gray;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        margin-left: 5px;
+    }
+    .calendarHeading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .calendarBody img{
+        height: 100px;
+      
+    }
+    
+    .itemContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item5{
+        display: none;
     }
     
 }
@@ -1031,6 +1120,41 @@ h3{
         font-size: 10px;
     }
     
+    /* Release Calendar CSS */
+
+    .releaseCalendar{
+    
+        margin-top: 20px;
+    }
+    
+    .calendarContent{
+        display: flex;
+        flex-direction: row;
+    }
+    .calendarItem{
+        border: solid gray;
+        width: 160px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    .calendarHeading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .calendarBody img{
+        height: 100px;
+      
+    }
+    
+    .itemContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
 
