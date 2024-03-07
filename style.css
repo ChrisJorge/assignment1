@@ -271,7 +271,108 @@ h3{
     display: flex;
 }
 
+.values{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.box{
+    width: 30%;
+    margin: 1.5%;
+    background-color: rgb(37, 35, 35);
+    
+}
 
+.boxContent{
+    padding: 25px;
+}
+
+.boxHead{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.boxBody, .boxBody a{
+    color: aliceblue;
+}
+
+
+footer{
+    color: aliceblue;
+    background-color:  rgb(37, 35, 35);
+    padding: 2%;
+}
+
+.footerTop{
+    display: flex;
+}
+.footerTop p, .footerLeft p{
+    font-weight: bold;
+}
+
+footer li{
+    padding: 0%;
+    
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.footerBottom, .footerLeft, .barTop{
+    display: flex;
+}
+
+.footerBottom{
+    justify-content: space-between;
+}
+.footerRight{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRight img{
+    margin-top: 15px;
+    height: 45px;
+}
+
+.barTop{
+    margin-left: 2%;
+    justify-content: space-between;
+
+}
+.barLeft{
+    margin-top: 2%;
+    border: solid white;
+    color: aliceblue;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.footerBar{
+    background-color: black;
+}
+
+.barMiddle{
+    margin-top: 2%;
+}
+.barMiddle img{
+    height: 35px;
+}
+
+.barRight{
+    margin-top: 2%;
+    margin-right: 2%;
+    color: aliceblue;
+}
+
+.barBottom{
+    height: 15vh;
+    margin-top: 2%;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
 /*Monitors */
 @media(min-width: 1351px){
 
@@ -919,6 +1020,117 @@ h3{
     .item5{
         display: none;
     }
+
+    /* Footer */
+      /* Footer CSS */
+
+      .values{
+        display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .box{
+        display: block;
+        width: 100%;
+        margin: 1.5%;
+        background-color: rgb(37, 35, 35);
+        
+    }
+    
+    .boxContent{
+        padding: 25px;
+    }
+    
+    .boxHead{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+    }
+    
+    .boxBody, .boxBody a{
+        color: aliceblue;
+    }
+    
+    
+    footer{
+        color: aliceblue;
+        background-color:  rgb(37, 35, 35);
+        padding: 2%;
+    }
+    
+    .footerTop{
+        display: block;
+    }
+    .footerTop p, .footerLeft p{
+        font-weight: bold;
+    }
+    
+    footer li{
+        padding: 0%;
+        
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    
+    .footerBottom, .footerLeft, .barTop{
+        display: block;
+    }
+    
+    .footerBottom{
+        justify-content: space-between;
+    }
+    .footerRight{
+        
+        display: block;
+        flex-direction: column;
+    }
+    
+    .footerRight img{
+        margin-top: 15px;
+        height: 45px;
+    }
+    
+    .barTop{
+        margin-left: 2%;
+        justify-content: space-between;
+    
+    }
+    .barLeft{
+        margin-top: 2%;
+        border: solid white;
+        color: aliceblue;
+        padding: 5px;
+        font-weight: bold;
+    }
+    
+    .footerBar{
+        background-color: black;
+    }
+    
+    .barMiddle{
+        margin-top: 2%;
+    }
+    .barMiddle img{
+        height: 35px;
+    }
+    
+    .barRight{
+        margin-top: 2%;
+        margin-right: 2%;
+        color: aliceblue;
+    }
+    
+    .barBottom{
+        height: 15vh;
+        margin-top: 2%;
+        display: flex;
+        color: aliceblue;
+        justify-content: center;
+    }
+
+    .barBottom p{
+        font-size: 5px;
+    }
     
 }
 
@@ -1154,6 +1366,116 @@ h3{
     .itemContainer{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    /* Footer CSS */
+
+    .values{
+        display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .box{
+        display: block;
+        width: 100%;
+        margin: 1.5%;
+        background-color: rgb(37, 35, 35);
+        
+    }
+    
+    .boxContent{
+        padding: 25px;
+    }
+    
+    .boxHead{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+    }
+    
+    .boxBody, .boxBody a{
+        color: aliceblue;
+    }
+    
+    
+    footer{
+        color: aliceblue;
+        background-color:  rgb(37, 35, 35);
+        padding: 2%;
+    }
+    
+    .footerTop{
+        display: block;
+    }
+    .footerTop p, .footerLeft p{
+        font-weight: bold;
+    }
+    
+    footer li{
+        padding: 0%;
+        
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    
+    .footerBottom, .footerLeft, .barTop{
+        display: block;
+    }
+    
+    .footerBottom{
+        justify-content: space-between;
+    }
+    .footerRight{
+        
+        display: block;
+        flex-direction: column;
+    }
+    
+    .footerRight img{
+        margin-top: 15px;
+        height: 45px;
+    }
+    
+    .barTop{
+        margin-left: 2%;
+        justify-content: space-between;
+    
+    }
+    .barLeft{
+        margin-top: 2%;
+        border: solid white;
+        color: aliceblue;
+        padding: 5px;
+        font-weight: bold;
+    }
+    
+    .footerBar{
+        background-color: black;
+    }
+    
+    .barMiddle{
+        margin-top: 2%;
+    }
+    .barMiddle img{
+        height: 35px;
+    }
+    
+    .barRight{
+        margin-top: 2%;
+        margin-right: 2%;
+        color: aliceblue;
+    }
+    
+    .barBottom{
+        height: 15vh;
+        margin-top: 2%;
+        display: flex;
+        color: aliceblue;
+        justify-content: center;
+    }
+
+    .barBottom p{
+        font-size: 5px;
     }
 
 }
